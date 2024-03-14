@@ -46,3 +46,14 @@ advisories:
         type: fixed
         data:
           fixed-version: 2.40-r3
+
+  - id: CVE-2023-1974
+    events:
+      - timestamp: 2023-05-27T12:32:23Z
+        type: detection
+        data:
+          type: manual
+      - timestamp: 2024-03-13T12:46:17Z
+        type: fixed
+        data:
+          fixed-version: 2.40-r4
