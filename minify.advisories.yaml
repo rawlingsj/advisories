@@ -23,12 +23,3 @@ advisories:
         data:
           type: vulnerable-code-not-included-in-package
           note: Only affects Windows
-
-  - id: CVE-2023-45288
-    aliases:
-      - GHSA-4v7x-pqxf-cx7m
-    events:
-      - timestamp: 2024-04-15T09:47:16Z
-        type: fixed
-        data:
-          fixed-version: 2.20.19-r1
